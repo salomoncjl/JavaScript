@@ -35,7 +35,7 @@ numero++
     < menor que
     >= mayor o igual que
     <= menor o igual que
-    ? operador ternario
+    ? : operador ternario
 */
 
 const resultado4 = 7 > 1 ? 'el primer valor es mayor que el segundo' : 'el segundo valor es mayor';
