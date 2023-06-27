@@ -1,2 +1,6 @@
 let edad = 2;
-console.log(edad)
+var edad2 = 24;
+let nombre = 'salomon';
+let nombre2;
+// console.log(edad + " " + nombre);
+
