@@ -18,7 +18,7 @@ const usuario = {
     ticket: false,
 };
 
-if(usuario.edad > 17 && usuario.ticket == true){
+if(usuario.edad > 17 && usuario.ticket ){
     console.log('El usuario es mayor de edad y tiene ticket, puede entrar');
 } else {
     console.log('El usuario no es mayor de edad y no podra entrar');
