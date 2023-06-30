@@ -12,6 +12,7 @@
 // }
 
 // Ejemplo 2:
+
 // const usuario = {
 //     edad: 27,
 //     pais: 'Mexico',
@@ -57,4 +58,3 @@ if(usuario.pais === 'Mexico'){
     console.log('El usuario es de Argentina');
 } else {
     console.log('El usuario no tiene pais');
-}
