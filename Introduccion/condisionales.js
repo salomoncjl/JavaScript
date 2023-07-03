@@ -58,3 +58,4 @@ if(usuario.pais === 'Mexico'){
     console.log('El usuario es de Argentina');
 } else {
     console.log('El usuario no tiene pais');
+}
