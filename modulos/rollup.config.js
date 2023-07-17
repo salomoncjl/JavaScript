@@ -5,3 +5,4 @@ export default {
         format: 'cjs',
     },
 };
+//npx rollup -c
