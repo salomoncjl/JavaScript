@@ -1,3 +1,3 @@
 export default () => {
-    console.log('Carrito funcionando');
+    console.log('Carrito agregado al carrito');
 }
