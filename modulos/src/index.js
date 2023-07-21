@@ -8,7 +8,11 @@
 // console.log(obtenerPost());
 
 // Forma de importar - Namespace Imports
-import * as datos from './nameExports'
+// import * as datos from './nameExports'
 
-console.log(datos.nombre);
-console.log(datos.obtenerPost());
+// console.log(datos.nombre);
+// console.log(datos.obtenerPost());
+
+// Default Imports
+import cualquierNombrePongo from './defaultExport'
+console.log(cualquierNombrePongo());
