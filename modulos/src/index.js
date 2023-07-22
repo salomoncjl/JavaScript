@@ -1,4 +1,4 @@
-// Forma de importar - Named Imports
+// 1 Forma de importar - Named Imports
 
 // import {nombre as nombreImportado, obtenerPost} from '../src/nameExports';
 
@@ -7,7 +7,7 @@
 // console.log('mi nombre es ' + nombreImportado);
 // console.log(obtenerPost());
 
-// Forma de importar - Namespace Imports
+// 2 Forma de importar - Namespace Imports
 // import * as datos from './nameExports'
 
 // console.log(datos.nombre);
@@ -16,3 +16,5 @@
 // Default Imports
 // import cualquierNombrePongo from './defaultExport'
 // console.log(cualquierNombrePongo());
+
+// 3 Forma Empty Imports
