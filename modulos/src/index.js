@@ -14,5 +14,5 @@
 // console.log(datos.obtenerPost());
 
 // Default Imports
-import cualquierNombrePongo from './defaultExport'
-console.log(cualquierNombrePongo());
+// import cualquierNombrePongo from './defaultExport'
+// console.log(cualquierNombrePongo());

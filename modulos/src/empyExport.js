@@ -1,0 +1,1 @@
+console.log('soy un clg de empyExport.js');
