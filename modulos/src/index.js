@@ -18,3 +18,6 @@
 // console.log(cualquierNombrePongo());
 
 // 3 Forma Empty Imports
+import './empyExport'
+import { correo } from './empyExport'
+console.log(correo);
