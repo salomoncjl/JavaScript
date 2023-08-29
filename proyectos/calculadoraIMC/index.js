@@ -13,7 +13,7 @@ function calcurIMC() {
         resultadoDiv.textContent = 'Por favor, ingrese valores valido de peso y altura.'
         return;
     }
-    const imc = peso / (altura ** 2);
+    const imc = peso / ((altura / 100) ** 2);
     resultadoDiv.textContent = `Tu IMC es: ${imc.toFixed(2)}`
 }
 
