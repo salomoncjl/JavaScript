@@ -14,7 +14,16 @@ function calcurIMC() {
         return;
     }
     const imc = peso / ((altura / 100) ** 2);
-    resultadoDiv.textContent = `Tu IMC es: ${imc.toFixed(2)}`
+    
+    if( imc <= 18.5){
+        resultadoDiv.textContent = `Tu IMC es: ${imc.toFixed(2)} - Peso bajo (Delgado).`
+    } else if( imc <= 18.6){
+        resultadoDiv.textContent = `Tu IMC es: ${imc.toFixed(2)} - Normal.`
+    } else if( imc <= 25){
+        resultadoDiv.textContent = `Tu IMC es: ${imc.toFixed(2)} - Sobrepeso.`
+    } else {
+        resultadoDiv.textContent = `Tu IMC es: ${imc.toFixed(2)} - Obesidad.`
+    }
 }
 
 // calcularBtn.addEventListener('click', calcurIMC)
