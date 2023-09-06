@@ -40,11 +40,16 @@ nav {
     text-decoration: none;
 }
 .presentacion{
+<<<<<<< HEAD
     display: block;
+=======
+    /* display: block; */
+>>>>>>> 78cccaa3250d36311e21dffc5e9074ef06580f33
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
     width: 27ch;
+<<<<<<< HEAD
 
     animation: typing 2s steps(12), blink .5s infinite step-end alternate;
     overflow:hidden;
@@ -54,6 +59,8 @@ nav {
 }
 @keyframes blink {
     50% { border-color: transparent;}
+=======
+>>>>>>> 78cccaa3250d36311e21dffc5e9074ef06580f33
 }
 header {
     background-color: #f2f2f2;
