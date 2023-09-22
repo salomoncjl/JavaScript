@@ -90,7 +90,7 @@ header {
     font-size: 40px;
 }
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 #contact{
     display: flex;
@@ -127,6 +127,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: calc(70.66% - 10px);
 }
 #projects{
     display: flex;
@@ -140,6 +141,8 @@ section{
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .img-projects{
@@ -157,4 +160,8 @@ section{
 .logos{
     width: 100px;
     height: 100px;
+}
+.footer-class{
+    background-color: black;
+    min-height: 25vh;
 }
