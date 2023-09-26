@@ -45,13 +45,15 @@ nav {
     cursor: pointer;
     box-shadow: 0 0 15px white;
 }
+.logo-icon{
+    color: white;
+} 
 .nav-links {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-  
 .nav-links li {
     margin-right: 20px;
     display: flex;
@@ -78,13 +80,23 @@ nav {
 @keyframes blink {
     50% { border-color: transparent;}
 }
-header {
+/* header {
     display: flex;
     flex-direction: column;
     padding: 50px;
     text-align: center;
     justify-content: center;
     height: 80%;
+} */
+#header {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
+
+.centered-content {
+    text-align: center; /* Centra el contenido dentro de su div */
 }
 .title-h2{
     font-size: 40px;
