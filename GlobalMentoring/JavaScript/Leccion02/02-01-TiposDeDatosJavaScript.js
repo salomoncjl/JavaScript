@@ -74,8 +74,17 @@
 // console.log(q);
 
 //----------------------------------------------------------------
-let nombre;
-nombre = "juan";
-console.log(nombre);
+// let nombre;
+// nombre = "juan";
+// console.log(nombre);
 
-const apellido = 'Perez';
+// const apellido = 'Perez';
+
+
+let nombreCompleto = 'Juan Perez';
+console.log( nombreCompleto );
+
+let x, y;
+x = 10, y = 20;
+let z = x + y;
+console.log(z);
