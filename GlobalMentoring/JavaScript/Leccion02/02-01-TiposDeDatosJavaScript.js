@@ -81,10 +81,21 @@
 // const apellido = 'Perez';
 
 
-let nombreCompleto = 'Juan Perez';
-console.log( nombreCompleto );
+// let nombreCompleto = 'Juan Perez';
+// console.log( nombreCompleto );
 
-let x, y;
-x = 10, y = 20;
-let z = x + y;
-console.log(z);
+// let x, y;
+// x = 10, y = 20;
+// let z = x + y;
+// console.log(z);
+
+// let nombrecompleto = 'Juan Perez';
+// let nombreCompleto = 'Carlos Lara';
+// console.log(nombreCompleto);
+// console.log(nombrecompleto);
+
+let a1nombreCompleto;
+let _nombreCompleto;
+let $esteTambien;
+// let 1nombreCompleto ; no esta permitido iniciar el nombre de una variable con numero
+
