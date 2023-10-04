@@ -25,6 +25,17 @@ let z = a + b;
 // console.log(z);
 
 // Post-incremento
-z = b++;
-console.log(b);
+// z = b++;
+// console.log(b);
+// console.log(z);
+
+// Decremento
+// Predecremento
+z = --a;
+console.log(a);
+console.log(z);
+
+// Post-decremento
+z = b--;
+console.log(a);
 console.log(z);
