@@ -76,8 +76,18 @@ let a = 3, b = 2, c = "3";
 // z = a === c 
 // console.log(z);
 
-let z = 3 != 4;
-console.log(z);
+// let z = 3 != 4;
+// console.log(z);
 
-z = 3 !== 2;
-console.log(z);
+// z = 3 !== 2;
+// console.log(z);
+
+// Mayor y Menor que <>
+// z = a < b;
+// x = a > b;
+// y = a >= b;
+// o = a <= b; 
+// console.log(z);
+// console.log(x);
+// console.log(y);
+// console.log(o);
