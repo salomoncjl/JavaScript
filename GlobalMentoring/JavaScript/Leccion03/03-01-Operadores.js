@@ -65,3 +65,13 @@
     %=
     **=
 */
+
+let a = 3, b = 2, c = "3";
+
+// Revisa si los valores
+let z = a == b;
+console.log(z);
+
+// Revisa los valores pero tambien los tipos
+z = a === c 
+console.log(z);
