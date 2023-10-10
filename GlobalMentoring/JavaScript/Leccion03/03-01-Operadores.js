@@ -66,7 +66,7 @@
     **=
 */
 
-let a = 3, b = 2, c = "3";
+// let a = 3, b = 2, c = "3";
 
 // // Revisa si los valores
 // let z = a == b;
@@ -91,3 +91,10 @@ let a = 3, b = 2, c = "3";
 // console.log(x);
 // console.log(y);
 // console.log(o);
+let a = 10;
+
+if( a % 2 == 0){
+    console.log('Es un numero par');
+} else {
+    console.log('Es un numero impar');
+}
