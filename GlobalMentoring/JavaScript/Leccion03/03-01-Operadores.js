@@ -102,9 +102,19 @@
 // }
 
 // Ejercicio Edad
-let edad = 20, adulto = 18;
-if(edad >= adulto){
-    console.log("Es un adulto");
-} else{
-    console.log("Es menor de edad");
+// let edad = 20, adulto = 18;
+// if(edad >= adulto){
+//     console.log("Es un adulto");
+// } else{
+//     console.log("Es menor de edad");
+// }
+
+// Operador AND en JavaScript
+let a = -1;
+let valMin = 0, valMax = 10;
+
+if( a >= valMin && a <= valMax ){
+    console.log("Dentro de rango");
+} else {
+    console.log("Fuera del rango");
 }
