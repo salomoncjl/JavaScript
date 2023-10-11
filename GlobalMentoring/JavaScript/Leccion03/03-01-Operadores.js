@@ -128,3 +128,11 @@
 // } else {
 //     console.log('El padre está ocupado');
 // }
+
+// Operador Ternario (? !)
+let resultado = ( 1 > 2 ) ? 'Verdadero' : 'Falso'
+console.log(resultado);
+
+let numero = 9;
+resultado = ( numero % 2 == 0) ? 'Numero Par' : 'Numero impar';
+console.log(resultado);
