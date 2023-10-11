@@ -130,9 +130,28 @@
 // }
 
 // Operador Ternario (? !)
-let resultado = ( 1 > 2 ) ? 'Verdadero' : 'Falso'
-console.log(resultado);
+// let resultado = ( 1 > 2 ) ? 'Verdadero' : 'Falso'
+// console.log(resultado);
 
-let numero = 9;
-resultado = ( numero % 2 == 0) ? 'Numero Par' : 'Numero impar';
+// let numero = 9;
+// resultado = ( numero % 2 == 0) ? 'Numero Par' : 'Numero impar';
+// console.log(resultado);
+
+// Convertir tipo String a tipo Numero
+
+let miNumero = '18';
+
+//console.log(typeof miNumero);
+
+let edad = Number(miNumero);
+
+// console.log(typeof edad);
+
+if (edad >= 18) {
+    console.log('Puede votar');
+}else{
+    console.log('Muy joven para votar');
+}
+// Con operador Ternario
+resultado = edad >= 18 ? 'Puede votar' : 'No puede votar'
 console.log(resultado);
