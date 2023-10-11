@@ -109,12 +109,22 @@
 //     console.log("Es menor de edad");
 // }
 
-// Operador AND en JavaScript
-let a = -1;
-let valMin = 0, valMax = 10;
+// Operador AND (&&)
+// let a = -1;
+// let valMin = 0, valMax = 10;
 
-if( a >= valMin && a <= valMax ){
-    console.log("Dentro de rango");
-} else {
-    console.log("Fuera del rango");
-}
+// if( a >= valMin && a <= valMax ){
+//     console.log("Dentro de rango");
+// } else {
+//     console.log("Fuera del rango");
+// }
+
+// Operador OR(||)
+
+// let vacaciones = true, diaDescanso = false;
+
+// if ( vacaciones || diaDescanso){
+//     console.log('El Padre puede asisitr al juego del hijo');
+// } else {
+//     console.log('El padre está ocupado');
+// }
