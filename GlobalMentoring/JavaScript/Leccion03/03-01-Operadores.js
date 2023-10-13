@@ -137,26 +137,36 @@
 // resultado = ( numero % 2 == 0) ? 'Numero Par' : 'Numero impar';
 // console.log(resultado);
 
-// Convertir tipo String a tipo Numero
+// // Convertir tipo String a tipo Numero
 
-let miNumero = '18';
+// let miNumero = '18';
 
-//console.log(typeof miNumero);
+// //console.log(typeof miNumero);
 
-let edad = Number(miNumero);
+// let edad = Number(miNumero);
 
-console.log(edad);
-if (isNaN(edad)){
-    console.log('no es un numero');
-} else {
-    if (edad >= 18) {
-        console.log('Puede votar');
-    }else{
-        console.log('Muy joven para votar');
-    }
-}
+// console.log(edad);
+// if (isNaN(edad)){
+//     console.log('no es un numero');
+// } else {
+//     if (edad >= 18) {
+//         console.log('Puede votar');
+//     }else{
+//         console.log('Muy joven para votar');
+//     }
+// }
 
 
-// Con operador Ternario
-resultado = edad >= 18 ? 'Puede votar' : 'No puede votar'
+// // Con operador Ternario
+// resultado = edad >= 18 ? 'Puede votar' : 'No puede votar'
+// console.log(resultado);
+
+let x = 5;
+let y = 10;
+let z = ++x + y--;
+console.log(x);
+console.log(y);
+console.log(z);
+
+let resultado = 4 + 5 * 6 / 3;
 console.log(resultado);
