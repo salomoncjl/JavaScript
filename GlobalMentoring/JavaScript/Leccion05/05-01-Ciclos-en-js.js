@@ -10,9 +10,17 @@
 // }
 
 // Ciclo while do
-let contador = 0;
+// let contador = 0;
+// let repeticiones = 5;
+
+// do{
+//     console.log(contador++);
+// } while( contador <= repeticiones)
+
+// Ciclo for
+// let contaodr = 0;
 let repeticiones = 5;
 
-do{
-    console.log(contador++);
-} while( contador <= repeticiones)
+for(let contador = 0; contador <= repeticiones; contador++){
+    console.log(contador);
+}
