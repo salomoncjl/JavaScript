@@ -18,7 +18,6 @@
 // } while( contador <= repeticiones)
 
 // Ciclo for
-// let contaodr = 0;
 let repeticiones = 5;
 
 for(let contador = 0; contador <= repeticiones; contador++){
