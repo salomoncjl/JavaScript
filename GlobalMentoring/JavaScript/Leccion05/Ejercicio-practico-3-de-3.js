@@ -1,13 +1,30 @@
 // Imprimir los primeros 10 numeros de 3 en 3
-let numero = 0
-// 1 - 4 - 7 - 10 - 13
+// let numero1 = 0
+// // 1 - 4 - 7 - 10 - 13
 
-for(numero; numero <= 10 ; numero += 3){
-    console.log(numero);
+// for(numero1; numero1 <= 10 ; numero1 += 3){
+//     console.log(numero1);
+// }
+
+// let numero2 = 0
+// // 1 - -2 - -5 - -8 - -11
+
+// for(numero2; -10 <= numero2 ; numero2 -= 3){
+//     console.log(numero2);
+// }
+
+// Ejercicio acumulador suma - Suma en los primeros 5 numeros
+let limite = 5
+let suma = 0
+
+
+for (let i = 1; i <= limite ; i++) {
+    // Imprimir lo que va a sumar
+    console.log(`${suma} + ${i}`);
+
+    // Realiza la suma parcial
+    suma += i
+    console.log(suma);
+
 }
-
-// 1 - -2 - -5 - -8 - -11
-
-for(numero; -10 <= numero ; numero -= 3){
-    console.log(numero);
-}
+console.log(suma);
